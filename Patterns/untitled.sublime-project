@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP"
+		}
+	],
+	"settings":
+	{
+		"debug.configurations":
+		[
+			{
+				"name": "Launch", 
+				"program": "${workspaceFolder}/Pattern4", 
+				"request": "launch", 
+				"cwd": "${workspaceFolder}", 
+				"type": "lldb", 
+				"args": []
+			},
+		]
+	}
+}

@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ios",
+				"iostream\t/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"
+			],
+			[
+				"st",
+				"std"
+			],
+			[
+				"c",
+				"Data-Structures-CPP"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Patterns/Pattern1.cpp",
+			"settings":
+			{
+				"buffer_size": 260,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Patterns/Patttern2.cpp",
+			"settings":
+			{
+				"buffer_size": 260,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/C++14.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					""
+				],
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Competitive Programming/Test C++.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++14.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++14.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "Run",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"PACKA",
+				"Package Control: Remove Package"
+			],
+			[
+				"THEME",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ttheme",
+				"UI: Select Theme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"matter",
+				"Material Theme: Configuration"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"debug",
+				"Debugger: Install Adapters"
+			],
+			[
+				"DEBUG",
+				"Debugger: Start"
+			],
+			[
+				"debu",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"debugg",
+				"Debugger: Install Adapters"
+			],
+			[
+				"Debugger",
+				"Debugger: Start"
+			],
+			[
+				"debugger:add",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"Debugg",
+				"Debugger: Open"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 385.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ArrayMultiExample1.cpp",
+		"/Users/postgres/Library/Application Support/Sublime Text 3/Packages/User/C++14.sublime-build",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Fibonacci.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Arithmatic.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Example1.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/StringCin.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Variables.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/cpp.sublime-project",
+		"/Users/postgres/Desktop/untitled.sublime-project",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/untitled.sublime-project",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/.gitignore",
+		"/Users/postgres/Desktop/prac.cpp",
+		"/Users/postgres/Documents/Other/Data-Structure-Examples/Linked List/node_deletion.py",
+		"/Users/postgres/Desktop/delete.py",
+		"/Users/postgres/Desktop/node"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"std"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Patterns/Pattern1.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Patterns/Patttern2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 249.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 370.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++14.sublime-build",
+	"project": "DS.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/node"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
