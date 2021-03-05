@@ -5,14 +5,56 @@ struct Node {
 	int data;
 	struct Node* left;
 	struct Node* right;
-
-	Node(int val) {
-
-		data = val;
-		left = NULL;
-		right = NULL;
-	}
 };
+
+Node* createNode(int data) {
+
+	Node* newNode = new Node();
+	if (!newNode) {
+		cout << "Memory Errorr";
+		return;
+	}
+
+	newNode -> data = data;
+	newNode- -> left = newNode -> right = NULL;
+	return newNode;
+}
+
+
+Node* inserNode(Node* root, int data){
+
+	// If the tree is empty create root and return
+	if (root == NULL) {
+		root = createNode(data);
+		return root;
+	}
+
+	// Else, do level order traversal until we find an empty
+    // place, i.e. either left child or right child of some
+    // node is pointing to NULL.
+    queue<Node*> q;
+    q.push(root);
+
+    while(!q.empty()) {
+    	Node* temp = q.front();
+    	q.pop();
+
+    	if(temp -> left != NULL){
+    		q.push(temp -> left);
+    	} else {
+    		temp -> left = createNode(data);
+    		return root;
+    	}
+
+    	if(temp -> right != NULL){
+    		q.push(temp -> right);
+    	} else {
+    		temp -> right = createNode(data);
+    		return root;
+    	}
+    }
+
+}
 
 int main(){
 
