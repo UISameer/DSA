@@ -12,16 +12,16 @@ Node* createNode(int data) {
 	Node* newNode = new Node();
 	if (!newNode) {
 		cout << "Memory Errorr";
-		return;
+		return 0;
 	}
 
 	newNode -> data = data;
-	newNode- -> left = newNode -> right = NULL;
+	newNode -> left = newNode -> right = NULL;
 	return newNode;
 }
 
 
-Node* inserNode(Node* root, int data){
+Node* insertNode(Node* root, int data){
 
 	// If the tree is empty create root and return
 	if (root == NULL) {
@@ -53,14 +53,41 @@ Node* inserNode(Node* root, int data){
     		return root;
     	}
     }
+}
 
+/* Inorder traversal of a binary tree */
+ 
+void inorder(Node* temp)
+{
+    if (temp == NULL)
+        return;
+ 
+    inorder(temp->left);
+    cout << temp->data << ' ';
+    inorder(temp->right);
 }
 
 int main(){
 
-	struct Node* root = new Node(1);
-	root -> left = new Node(2);
-	root -> right = new Node(3);
-	root->left->left = new Node(4);
-	return 0;
+	 Node* root = createNode(10);
+    root->left = createNode(11);
+    root->left->left = createNode(7);
+    root->right = createNode(9);
+    root->right->left = createNode(15);
+    root->right->right = createNode(8);
+ 
+    cout << "Inorder traversal before insertion: ";
+    inorder(root);
+    cout << endl;
+ 
+    int key = 12;
+    root = insertNode(root, key);
+
+    cout << "Inorder traversal after insertion: ";
+    inorder(root);
+    cout << endl;
+ 
+ 
+ 
+    return 0;
 }
