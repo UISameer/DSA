@@ -14,7 +14,7 @@ struct Node {
 	}
 };
 
-int main(){
+int main() {
 
 	struct Node* root = new Node(1);
 	root -> left = new Node(2);
